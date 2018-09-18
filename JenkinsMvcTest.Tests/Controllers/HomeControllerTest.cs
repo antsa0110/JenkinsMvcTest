@@ -50,5 +50,11 @@ namespace JenkinsMvcTest.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+
+        [TestMethod]
+        public void Error()
+        {
+            Assert.AreEqual(2, 3);
+        }
     }
 }
