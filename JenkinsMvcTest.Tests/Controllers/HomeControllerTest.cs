@@ -24,8 +24,7 @@ namespace JenkinsMvcTest.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
-
-        //
+        
         [TestMethod]
         public void About()
         {
