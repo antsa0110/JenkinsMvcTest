@@ -26,5 +26,10 @@ namespace JenkinsMvcTest.Controllers
 
             return View();
         }
+
+        public ActionResult Test1()
+        {
+            return View();
+        }
     }
 }
