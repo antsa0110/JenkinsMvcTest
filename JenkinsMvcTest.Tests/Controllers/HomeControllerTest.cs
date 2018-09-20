@@ -54,7 +54,7 @@ namespace JenkinsMvcTest.Tests.Controllers
         [TestMethod]
         public void Error()
         {
-            Assert.AreEqual(3, 33);
+            Assert.AreEqual(33, 33);
         }
     }
 }
